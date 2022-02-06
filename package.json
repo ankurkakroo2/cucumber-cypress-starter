@@ -1,0 +1,38 @@
+{
+  "name": "cucumber-cypress-starter",
+  "version": "1.0.0",
+  "description": "Accelerator to quickly bootstrap a cucumber based cypress project",
+  "author": "Ankur Kakroo",
+  "license": "ISC",
+  "keywords": [
+    "e2e",
+    "cypress",
+    "cucumber"
+  ],
+  "scripts": {
+    "test:report": "rm -rf out &&  node scripts/cy.js --cucumber-report",
+    "test:cucumber-report": "rm -rf out &&  node scripts/cy.js --cucumber-report",
+    "test:mocha-report": "rm -rf out &&  node scripts/cy.js --mocha-report",
+    "test": "rm -rf out &&  cypress run --reporter spec",
+    "test:dev": "cypress open",
+    "serve:report": "http-server out/cucumber/html"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "out/cucumber/json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  },
+  "devDependencies": {
+    "cypress": "^9.4.1",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "http-server": "^14.1.0",
+    "mochawesome": "^7.0.1",
+    "mochawesome-merge": "^4.2.1",
+    "mochawesome-report-generator": "^6.0.1",
+    "multiple-cucumber-html-reporter": "^1.18.3"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "downloadsFolder": "out/downloads",
+  "screenshotsFolder": "out/screenshots",
+  "videosFolder": "out/videos",
+  "testFiles": "**/*.{feature,features}",
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "overwrite": false,
+    "html": false,
+    "json": true,
+    "reportDir": "out/mochawesome/"
+  }
+}
