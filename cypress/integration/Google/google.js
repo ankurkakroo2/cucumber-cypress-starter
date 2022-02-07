@@ -5,6 +5,6 @@ Given('I open Google page', () => {
   cy.visit(url);
 });
 
-Given('I see {string} in the title', () => {
+Then('I see {string} in the title', () => {
   cy.contains('Google');
 });
