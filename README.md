@@ -1,7 +1,7 @@
 # Welcome to cucumber-cypress-starter 👋
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)
-[![License: ISC](https://img.shields.io/badge/License-ISC-yellow.svg)](#)
+[![License: ISC](https://img.shields.io/badge/License-MIT-green.svg)](#)
 [![Twitter: ankurkakroo](https://img.shields.io/twitter/follow/ankurkakroo.svg?style=social)](https://twitter.com/ankurkakroo)
 
 > Accelerator to quickly bootstrap a cucumber based cypress project
