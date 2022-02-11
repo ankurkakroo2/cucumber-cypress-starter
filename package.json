@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Accelerator to quickly bootstrap a cucumber based cypress project",
   "author": "Ankur Kakroo",
-  "license": "ISC",
+  "license": "MIT",
   "keywords": [
     "e2e",
     "cypress",
